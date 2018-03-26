@@ -43,6 +43,13 @@
 			<version>1.11.4</version>
 		</dependency>
 
+		<!-- akka -->
+		<dependency>
+			<groupId>com.typesafe.akka</groupId>
+			<artifactId>akka-actor_2.11</artifactId>
+			<version>2.4.17</version>
+		</dependency>
+
 		<!-- https://mvnrepository.com/artifact/com.sos-berlin/jni4net.n-sos -->
 		<dependency>
 			<groupId>com.sos-berlin.jobscheduler</groupId>

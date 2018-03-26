@@ -17,6 +17,17 @@ public class HelloSecondJobScheduler extends JobSchedulerJobAdapter {
 			spooler_log.info(params.value("firstJobParam") + " ****** was received");
 			
 			super.setJSParam("secondJobParam", "I am coming from second Job");
+
+			System.out.println("********* task xml = " + spooler_task.params().xml());
+			System.out.println("********* order param = " + getOrder().params().xml());
+
+			//spooler_task.order().params().value("scheduler_file_path");
+
+			Variable_set taskparams = spooler_task.params();
+
+			taskparams.set_value("scheduler_file_path", "testing-file-passing.xml");
+
+			super.getOrderParams().set_value("scheduler_file_path", "testing-file-passing.xml");
 			
 		} catch (Exception e) {
 			e.printStackTrace();

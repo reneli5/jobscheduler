@@ -89,12 +89,13 @@
     <orderEntry type="library" name="Maven: io.spray:spray-io_2.11:1.3.2" level="project" />
     <orderEntry type="library" name="Maven: io.spray:spray-httpx_2.11:1.3.2" level="project" />
     <orderEntry type="library" name="Maven: com.typesafe:config:1.2.1" level="project" />
-    <orderEntry type="library" name="Maven: com.typesafe.akka:akka-actor_2.11:2.3.11" level="project" />
     <orderEntry type="library" name="Maven: com.typesafe.akka:akka-slf4j_2.11:2.3.11" level="project" />
     <orderEntry type="library" name="Maven: javax.servlet:javax.servlet-api:3.0.1" level="project" />
     <orderEntry type="library" name="Maven: aopalliance:aopalliance:1.0" level="project" />
     <orderEntry type="library" name="Maven: org.jvnet.mimepull:mimepull:1.9.4" level="project" />
     <orderEntry type="library" name="Maven: com.sos-berlin:jobscheduler.engine:1.11.4" level="project" />
+    <orderEntry type="library" name="Maven: com.typesafe.akka:akka-actor_2.11:2.4.17" level="project" />
+    <orderEntry type="library" name="Maven: org.scala-lang.modules:scala-java8-compat_2.11:0.7.0" level="project" />
     <orderEntry type="library" name="Maven: com.sos-berlin.jobscheduler:jobscheduler-helper:1.11.4" level="project" />
     <orderEntry type="library" name="Maven: com.sos-berlin.jobscheduler:sos-scheduler:1.11.4" level="project" />
     <orderEntry type="library" name="Maven: junit:junit:4.12" level="project" />
