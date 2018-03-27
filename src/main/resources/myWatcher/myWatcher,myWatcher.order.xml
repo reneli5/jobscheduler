@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+
+<order title="My Watcher">
+    <params >
+        <param  name="day_offset" value="31"/>
+    </params>
+
+    <run_time >
+        <weekdays >
+            <day  day="1 2 3 4 5 6 7">
+                <period  single_start="00:01"/>
+            </day>
+        </weekdays>
+    </run_time>
+</order>

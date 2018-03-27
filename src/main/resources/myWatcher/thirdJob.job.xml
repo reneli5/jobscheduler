@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+ 
+<job name="thirdJob" title="third job in sequence" order="yes">
+    <script language="Java" java_class = "com.rene.testing.NextOperationInWatcher"/>
+</job>

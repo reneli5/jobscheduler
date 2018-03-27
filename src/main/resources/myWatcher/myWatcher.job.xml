@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+ 
+<job name="myWatcher" title="First Job In Sequence" order="yes">
+    <params >
+        <param  name="taskParameter" value="This is value from job one task parameter"/>
+    </params>
+    <script language="Java" java_class = "com.rene.testing.FileWatcherOperationJob"/>
+</job>

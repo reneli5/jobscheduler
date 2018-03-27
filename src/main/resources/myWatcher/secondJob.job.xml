@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+ 
+<job  name="secondJob" title="second job in sequence" order="yes">
+    <params>
+       <param name = "secondJobParam" value="Job specific param"/>
+    </params>
+    <script language="Java" java_class = "com.rene.testing.HelloSecondJobScheduler"/>
+</job>
